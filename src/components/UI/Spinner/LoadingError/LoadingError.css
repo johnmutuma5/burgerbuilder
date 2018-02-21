@@ -1,0 +1,22 @@
+.ErrorIcon {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  color: red;
+}
+
+.ErrorIcon svg {
+  display: block;
+  opacity: 1;
+}
+
+.ErrorIcon line {
+  fill: none;
+  stroke: red;
+  stroke-width: 7;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  opacity: 1;
+}
